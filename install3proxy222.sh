@@ -103,5 +103,6 @@ sysctl -p
 sudo systemctl disable firewalld
 iptables -F
 ip6tables -F
+cd /root
 wget https://raw.githubusercontent.com/zhaojiyu/3proxy/main/22proxy22.sh
 reboot
